@@ -1,0 +1,21 @@
+/* :root{
+    --sidebar-width: 270px;
+    --background-color: #212529;
+    /* --top-navbar: 62px; */
+/* } */
+/* .navbar{
+    height: var(--navbar-height);
+}
+
+.sidebar-nav{
+    width: var(--sidebar-width);
+    background-color: var(--background-color);
+    height: calc(100vh - var(--top-navbar));
+}
+
+@media(max-width: 1024px){
+    .sidebar-nav{
+        margin-left: -270px;
+        top: var(--top-navbar);
+    }
+} */

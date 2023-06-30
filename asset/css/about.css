@@ -1,0 +1,39 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  overflow-x: hidden;
+}
+.img1 {
+  width: 100vw;
+  height: 40vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../images/about.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: start;
+  padding: 10%;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 70px;
+  font-size: 25px;
+  letter-spacing: 1.5px;
+}
+.dis {
+  padding-top: 5%;
+}
+.blank {
+  padding-top: 20px;
+  padding: 20px;
+  display: flex;
+  line-height: 1.6;
+  letter-spacing: 1px;
+}
+h3 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+p {
+  font-size: 18px;
+}

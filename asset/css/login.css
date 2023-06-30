@@ -1,0 +1,111 @@
+.loginBackground{
+    background-color: #1c065c;
+    width: 100%;
+    height: 50vh;
+}
+.main_form_container{
+    display: grid;
+    justify-content: center;
+
+}
+.form_icon_container{
+    display: flex;
+    justify-content: center;
+}
+.icon_container{
+    height: 90px;
+    width: 90px;
+    background-color: white;
+    display: grid;
+    place-content: center;
+    border-radius: 50%;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-top: -50px;
+}
+.fa-circle-user{
+    font-size: 4em;
+    font-weight: 100;
+    color: #1c065c;
+}
+.logo_main{
+    display: flex;
+    justify-content: center;
+}
+ .images_logo_container{
+    margin-top: -10px;
+ }
+.register-form_container{
+    margin-top: -200px;
+    background-color: white;
+    width: 400px;
+    height: 400px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+}
+  .input-field-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+ }
+ .input-field{
+    width: 90%;
+    height: 40px;
+    background: #D9D9D9;
+    border-radius: 25px;
+    margin-top: 15px;
+    border: none;
+    padding: 20px;
+    outline: none;
+ }
+  .button_container{
+    display: flex;
+    justify-content: center;
+ }
+ .login_button{
+    width: 90%;
+    height: 40px;
+    border-radius: 25px;
+    margin-top: 15px;
+    background-color: #1c065c;
+    color: white;
+    border: none;
+    outline: none;
+    font-size: 1.1em;
+    font-weight: 700;
+    text-transform: uppercase;
+ }
+ .login_button:hover{
+    background-color: lightblue;
+    color: #1c065c;
+ }
+ 
+ .forget_password{
+    display: flex;
+    justify-content: flex-end;
+    margin-right:25px ;
+    margin-top: 10px;
+ }
+.button_create_account{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.creat_account{
+    border: none;   
+    width: 90%;
+    width: 90%;
+    height: 40px;
+    border-radius: 25px;
+    background-color: #ffc107;
+    color:  #1c065c;
+    border: none;
+    outline: none;
+    font-size: 1.1em;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.creat_account:hover{
+    background-color: rgb(252, 252, 61);
+    color: #1c065c;
+}
